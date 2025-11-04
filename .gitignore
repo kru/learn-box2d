@@ -1,0 +1,14 @@
+# Ignore *everything*
+*
+!/**/
+# And then this unignores anything with an extension
+!*.*
+# Now, the rest of your gitignore should appear after the above
+# On Windows, Stan executables end in .exe
+*.exe
+# Ignore temporary files created as part of compilation
+*.hpp
+*.o
+*.bin
+ols.json
+.DS_Store
